@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập Mảng số nguyên</title>
+    <link rel="stylesheet" href="./index.css">
+     <!-- <link href="./index.css"> -->
+</head>
+<body>
+    <div class="container">
+        <h1>Bài tập Mảng số nguyên</h1>
+        
+        <div class="input-section">
+            <h2>Nhập mảng số nguyên</h2>
+            <div class="input-group">
+                <input type="number" id="numberInput" placeholder="Nhập số nguyên">
+                <button onclick="addNumber()">Thêm vào mảng</button>
+                <button onclick="clearArray()">Xóa mảng</button>
+            </div>
+            <div id="arrayDisplay">Mảng hiện tại: []</div>
+        </div>
+        
+        <div class="functions-section">
+            <h2>Chọn chức năng</h2>
+            <div class="function-buttons">
+                <button onclick="executeFunction(1)">1. Tổng các số dương</button>
+                <button onclick="executeFunction(2)">2. Đếm số dương</button>
+                <button onclick="executeFunction(3)">3. Số nhỏ nhất</button>
+                <button onclick="executeFunction(4)">4. Số dương nhỏ nhất</button>
+                <button onclick="executeFunction(5)">5. Số chẵn cuối cùng</button>
+                <button onclick="executeFunction(6)">6. Đổi chỗ 2 giá trị</button>
+                <button onclick="executeFunction(7)">7. Sắp xếp tăng dần</button>
+                <button onclick="executeFunction(8)">8. Số nguyên tố đầu tiên</button>
+                <button onclick="executeFunction(9)">9. Đếm số nguyên trong mảng thực</button>
+                <button onclick="executeFunction(10)">10. So sánh số dương và âm</button>
+            </div>
+            
+            <div id="additionalInputs" class="additional-inputs"></div>
+            
+            <div id="result" class="result-section">
+                <h3>Kết quả:</h3>
+                <div id="resultContent"></div>
+            </div>
+        </div>
+    </div>
+ 
+<script src="./index.js"></script>
+</body>
+</html>
