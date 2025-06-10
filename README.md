@@ -79,6 +79,6 @@ Dang Nguyen Vu Hoang
 
 📧 dangnguyenvuhoang8384@gmail.com
 
-🌐 Portfolio Website
+🌐 Portfolio Website: https://dangnguyenvuhoang.vercel.app/
 
-💻 GitHub Profile
+💻 GitHub Profile: https://github.com/DangNguyenVuHoang
