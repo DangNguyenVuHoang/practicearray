@@ -48,7 +48,9 @@ cd practicearray
 
 # Open in default browser
 open index.html  # macOS
+
 start index.html # Windows
+
 xdg-open index.html # Linux
 
 # Usage
